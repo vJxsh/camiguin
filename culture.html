@@ -19,7 +19,7 @@
 <nav class="navbar navbar-expand-lg bg-warning shadow-sm sticky-top py-2">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-      <img src="images/seal.png">
+      <img src="images/seal.png" class="me-2">
       <span class="fw-bold fs-2">Explore Camiguin Culture</span>
     </a>
 
@@ -27,17 +27,31 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navMenu">
-      <ul class="navbar-nav ms-auto gap-2">
-        <li class="nav-item">
-          <a class="nav-link fw-semibold text-dark px-3 rounded-pill " href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fw-semibold text-dark px-3 rounded-pill" href="index.html#tour">Spots</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fw-semibold text-dark px-3 rounded-pill bg-info" href="culture.html">Culture</a>
-        </li>
+    <div class="collapse navbar-collapse text-start" id="navMenu">
+          <ul class="navbar-nav ms-auto gap-2 w-lg-auto mt-3 mt-lg-auto">
+
+            <li class="nav-item">
+              <a class="nav-link fw-semibold text-dark px-3 rounded-pill" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fw-semibold text-dark px-3 rounded-pill hover-bg bg-info" href="culture.html" >Culture</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-semibold text-dark" href="#" role="button" data-bs-toggle="dropdown">Municipalities </a>
+                    <ul class="dropdown-menu shadow border-0">
+                        <li><a class="dropdown-item" href="catarman.html">Catarman</a></li>
+                        <li><a class="dropdown-item" href="fire.html">Guinsiliban</a></li>
+                        <li><a class="dropdown-item" href="hinog.html">Mahinog</a></li>
+                        <li><a class="dropdown-item" href="Mambajao.html">Mambajao</a></li>
+                      </ul>
+            </li>
+          </ul>
+        </div>
+
+
+
       </ul>
     </div>
   </div>
