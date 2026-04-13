@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <link href="stylesfolder/main-styles.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="images/pogo.png" />
+
+  <title>Catarman | Camiguin</title>
+</head>
+
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-lg bg-warning shadow-sm sticky-top py-2">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <img src="images/catseal.png" class="me-2">
+          <span class="fw-bold fs-2">Explore Catarman</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-start" id="navMenu">
+          <ul class="navbar-nav ms-auto gap-2 w-lg-auto mt-3 mt-lg-auto">
+
+            <li class="nav-item">
+              <a class="nav-link fw-semibold text-dark px-3 rounded-pill " href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link fw-semibold text-dark px-3 rounded-pill hover-bg" href="culture.html" > Culture</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle fw-semibold bg-info text-dark rounded-pill" href="#" role="button" data-bs-toggle="dropdown">Municipalities </a>
+                    <ul class="dropdown-menu shadow border-0">
+                        <li><a class="dropdown-item" href="catarman.html">Catarman</a></li>
+                        <li><a class="dropdown-item" href="fire.html">Guinsiliban</a></li>
+                        <li><a class="dropdown-item" href="hinog.html">Mahinog</a></li>
+                        <li><a class="dropdown-item" href="Mambajao.html">Mambajao</a></li>
+                      </ul>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="container my-5">
+
+    <!-- CAROUSEL -->
+    <div class="mb-5">
+      <div id="mainCarousel" class="carousel slide shadow rounded" data-bs-ride="carousel">
+        <img class="city-img w-100" src="images/catarman.jpg" alt="arial view of catarman">
+      </div>
+       
+    </div>
+
+    <!-- CONTENT GRID -->
+    <div class="row g-4">
+
+      <!-- ABOUT -->
+      <div class="col-lg-8">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+
+            <h2 class="text-center mb-3">About Catarman</h2>
+
+            <p>
+              Catarman is one of the five municipalities of Camiguin, known for its rich history
+              and scenic coastal landscapes. It plays an important role in the island’s cultural identity.
+            </p>
+
+            <p>
+              The town is famous for landmarks like the Sunken Cemetery and the Guiob Church Ruins,
+              which were formed after volcanic eruptions in the 19th century.
+            </p>
+
+            <p>
+              Today, Catarman offers visitors a unique blend of history, natural beauty,
+              and peaceful seaside views, making it a must-visit destination in Camiguin.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- QUICK FACTS -->
+      <div class="col-lg-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body bg-warning rounded">
+
+            <h2 class="text-center mb-3">Quick Facts</h2>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">📍 Catarman, Camiguin</li>
+              <li class="list-group-item">🏛️ Historic municipality</li>
+              <li class="list-group-item">🌋 Shaped by volcanic eruptions</li>
+              <li class="list-group-item">📸 Famous for Sunken Cemetery</li>
+              <li class="list-group-item">🌊 Coastal and scenic views</li>
+              <li class="list-group-item">🕒 Best: Morning / Sunset</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- MAP -->
+    <div class="my-5">
+      <h2 class="text-center mb-3">Location Map</h2>
+
+      <div class="shadow rounded overflow-hidden">
+        <iframe
+          src="https://www.google.com/maps?q=Catarman+Camiguin&output=embed&z=13&hl=en&t=k"
+          width="100%"
+          height="400"
+          style="border:0;"
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+
+    <!-- COMMENTS + ADS -->
+    <section class="my-5">
+      <h2 class="text-center mb-4">Visitor Comments</h2>
+
+      <div class="row g-4">
+
+        <!-- COMMENTS -->
+        <div class="col-lg-8">
+
+          <!-- COMMENT FORM -->
+          <div class="card shadow-sm mb-4">
+            <div class="card-body">
+              <h5 class="mb-3">Leave a Comment</h5>
+
+              <form>
+                <input class="form-control mb-2" placeholder="Your Name" required>
+                <textarea class="form-control mb-2" rows="3" placeholder="Write your comment..." required></textarea>
+                <button class="btn btn-primary w-100">Post Comment</button>
+              </form>
+            </div>
+          </div>
+
+          <!-- COMMENTS LIST -->
+          <div class="card shadow-sm">
+            <div class="card-body">
+
+              <strong>Maria Santos</strong>
+              <p>Very historic and peaceful place!</p>
+              <hr>
+
+              <strong>John Cruz</strong>
+              <p>The Sunken Cemetery is a must-visit!</p>
+              <hr>
+
+              <strong>Anna Lim</strong>
+              <p>Beautiful coastal views and relaxing atmosphere.</p>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- AD SPACE -->
+        <div class="col-lg-4">
+          <div class="card shadow-sm text-center p-3">
+
+            <h5 class="fw-bold">Sponsored</h5>
+
+            <img src="images/paras-beach-resort.jpg" class="img-fluid rounded mb-3" alt="Ad">
+
+            <p>Explore more destinations and resorts in Camiguin.</p>
+
+            <a href="#" class="btn btn-warning btn-sm w-100">Learn More</a>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <div class="tourist-spots" id="tour">
+  <section class="py-5 bg-light">
+    <div class="container">
+
+      <h1 class="text-center mb-4">CHECK OUR TOP DESTINATIONS!</h1>
+
+      <div id="spotsCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner rounded">
+
+          <!-- slide 1 -->
+          <div class="carousel-item active">
+            <div class="row g-3 text-center">
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="whiteisland.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/notblackisland.webp" class="img-fluid">
+                    <div class="desc">White Island</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="sunkencementery.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/historyicon.jpg" class="img-fluid">
+                    <div class="desc">Sunken Cemetery</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="stoninocoldspring.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/spring.jpg" class="img-fluid">
+                    <div class="desc">Sto Niño Cold Spring</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="tuasan.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/tuasan.jpg" class="img-fluid">
+                    <div class="desc">Tuasan Falls</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="clam.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/dakongatahon.webp" class="img-fluid">
+                    <div class="desc">Giant Clam Sanctuary</div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- slide 2 -->
+          <div class="carousel-item">
+            <div class="row g-3 text-center">
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="sodabora.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/soda.jpg" class="img-fluid">
+                    <div class="desc">Soda Bora Water Spring</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="moro.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/morotower1.jpg" class="img-fluid">
+                    <div class="desc">Moro Watch Tower</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="mantigue.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/mantik.jpg" class="img-fluid">
+                    <div class="desc">Mantigue Island</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="mang.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/mangrove-park.jpg" class="img-fluid">
+                    <div class="desc">Katunggan Mangrove Park</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="jigdugreef.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/p1070177.webp" class="img-fluid">
+                    <div class="desc">Jigdug Reef</div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- slide 3 -->
+          <div class="carousel-item">
+            <div class="row g-3 text-center">
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="ardent.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/ardent.jpg" class="img-fluid">
+                    <div class="desc">Ardent Hot Springs</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="hibokhibok.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/hbk2.jpg" class="img-fluid">
+                    <div class="desc">Mt. Hibok-Hibok Volcano</div>
+                  </div>
+                </a>
+              </div>
+
+             <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="katibawasan.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/katib.jfif" class="img-fluid">
+                    <div class="desc">Katibawasan Falls</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="guiob.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item" >
+                    <img src="images/goy.jpg" class="img-fluid">
+                    <div class="desc">Goi Ob Church Ruins</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg">
+                <a href="macao.html" class="text-decoration-none text-dark">
+                  <div class="gallery-item">
+                    <img src="images/macao.jpg" class="img-fluid">
+                    <div class="desc">Macao Cold Spring</div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- slider button  -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#spotsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#spotsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
+        </button>
+
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+
+
+
+  <!-- FOOTER -->
+  <footer class="bg-warning text-center py-3 mt-5">
+    <p class="mb-0 text-dark">Explore Camiguin, since Isle Be There.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
