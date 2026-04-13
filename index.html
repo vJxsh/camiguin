@@ -18,10 +18,10 @@
 
   <body>
     <!-- navbar as header -->
-    <nav class="navbar navbar-expand-lg bg-warning shadow-sm sticky-top py-2">
+    <div class="navbar navbar-expand-lg bg-warning shadow-sm sticky-top py-2">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-          <img src="images/seal.png">
+          <img src="images/seal.png" alt="Logo" class="me-2">
           <span class="fw-bold fs-2">Explore Camiguin</span>
         </a>
 
@@ -29,27 +29,35 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navMenu">
-          <ul class="navbar-nav ms-auto gap-2">
-            <li class="nav-item">
-              <a class="nav-link active fw-semibold text-dark px-3 rounded-pill bg-info" href="#">Home</a>
-            </li>
+        <div class="collapse navbar-collapse text-start" id="navMenu">
+          <ul class="navbar-nav ms-auto gap-2 mt-3 mt-lg-0">
 
             <li class="nav-item">
-              <a class="nav-link active fw-semibold text-dark px-3 rounded-pill hover-bg" href="#tour"> Spots</a>
+              <a class="nav-link active fw-semibold text-dark px-3 rounded-pill bg-info" href="index.html">Home</a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link fw-semibold text-dark px-3 rounded-pill hover-bg" href="culture.html" > Culture</a>
             </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-semibold text-dark" href="#" role="button" data-bs-toggle="dropdown">Municipalities </a>
+                    <ul class="dropdown-menu shadow border-0">
+                        <li><a class="dropdown-item" href="catarman.html">Catarman</a></li>
+                        <li><a class="dropdown-item" href="fire.html">Guinsiliban</a></li>
+                        <li><a class="dropdown-item" href="hinog.html">Mahinog</a></li>
+                        <li><a class="dropdown-item" href="Mambajao.html">Mambajao</a></li>
+                      </ul>
+            </li>
           </ul>
         </div>
+
       </div>
-    </nav>
+    </div>
 
     <!-- katung choy nga cover image sa website nga naay transition -->
     <header class="position-relative text-white text-center">
-      <img src="images/mantik.jpg" class="w-100" alt="Camiguin" />
+      <img src="images/mantik.jpg" class="w-100 hero-img" alt="Camiguin">
 
       <div
         class="position-absolute top-50 start-50 translate-middle text-center"
@@ -98,7 +106,7 @@
       </div>
     </div>
 
-    <div class="tourist-spots" id="tour">
+  <div class="tourist-spots" id="tour">
   <section class="py-5 bg-light">
     <div class="container">
 
@@ -263,7 +271,6 @@
 
             </div>
           </div>
-
         </div>
 
         <!-- slider button  -->
@@ -278,10 +285,48 @@
       </div>
     </div>
   </section>
+
+  <!-- CAPITOL SECTION -->
+<div class="py-5 bg-light">
+  <div class="container">
+
+    <h2 class="text-center mb-4 fw-bold">Camiguin Provincial Capitol</h2>
+
+    <div class="row align-items-center g-4">
+
+      <!-- IMAGE -->
+      <!--gikapoy pero saun taman, range it down yo, lets, go, murag dire nalang ta kutob ani, bisag ang kalibutan mo mo bali !-->
+      <div class="col-lg-6">
+        <img src="images/capitol.jpg" class="img-fluid rounded shadow rounded-pill" alt="Camiguin Provincial Capitol">
+      </div>
+
+      <!-- TEXT -->
+      <div class="col-lg-6">
+
+        <p>
+          The Camiguin Provincial Capitol, located in Mambajao, serves as the official seat of the provincial government.
+          It is where important government offices and administrative functions of the province are held.
+        </p>
+
+        <p>
+          The capitol building is surrounded by landscaped gardens and open spaces, making it a calm and scenic landmark
+          in the capital town. It also reflects the province’s commitment to governance, tourism, and development.
+        </p>
+
+        <p>
+          Visitors often pass by the area while exploring Mambajao, as it is near other attractions, restaurants,
+          and coastal roads leading to White Island.
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+</div>
 </div>
 
     <!-- FOOTER -->
-    <footer class="bg-warning text-white text-center py-3">
+    <footer class="bg-warning text-dark text-center py-3">
       <p class="mb-0">Explore Camiguin, since Isle Be There.</p>
     </footer>
 
